@@ -2,7 +2,7 @@
 
 Панасыз жануарлар мен жаңа иегерлерді байланыстыруға арналған веб-қосымша.
 
-## 🛠 Технологиялар
+## Технологиялар
 * **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript
 * **Backend:** PHP (Native / OOP)
 * **Database:** MySQL
