@@ -1,4 +1,4 @@
-# Pet Adoption Web Application
+# PawHome Web Application
 
 Панасыз жануарлар мен жаңа иегерлерді байланыстыруға арналған веб-қосымша.
 
