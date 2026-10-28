@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши животные — PawHome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo"> PawHome</a>
+
+        <button type="button" class="menu-toggle"
+                aria-label="Открыть меню"
+                aria-expanded="false">☰</button>
+
+        <div class="nav-links">
+            <a href="index.html">Главная</a>
+            <a href="animals.html" class="active">Наши животные</a>
+            <a href="index.html#about">О нас</a>
+            <a href="login.html" class="login-btn">Войти</a>
+        </div>
+    </nav>
+</header>
+
+<main class="catalog">
+    <div class="catalog-heading">
+        <span class="eyebrow"> Знакомьтесь с нашими друзьями</span>
+        <h1>Они ждут именно тебя</h1>
+        <p>Каждый из них мечтает обрести любящую семью.</p>
+    </div>
+
+
+<div class="search-container">
+    <input
+        type="search"
+        id="animalSearch"
+        placeholder="Найти питомца по имени..."
+        aria-label="Поиск животных по имени"
+    >
+</div>
+
+
+    <div class="filters">
+        <button type="button" class="filter-btn active" data-filter="all">Все</button>
+        <button type="button" class="filter-btn" data-filter="dog"> Собаки</button>
+        <button type="button" class="filter-btn" data-filter="cat"> Кошки</button>
+    </div>
+
+    <div class="animal-grid">
+
+        <article class="animal-card" data-type="dog">
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=600"
+                 alt="Собака Макс">
+            <div class="animal-info">
+                <span class="animal-type">Собака</span>
+                <h2>Макс</h2>
+                <p>2 года · Добрый и игривый</p>
+                <button type="button" class="animal-btn">Познакомиться →</button>
+            </div>
+        </article>
+
+        <article class="animal-card" data-type="cat">
+            <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600"
+                 alt="Кошка Луна">
+            <div class="animal-info">
+                <span class="animal-type">Кошка</span>
+                <h2>Луна</h2>
+                <p>1 год · Ласковая и спокойная</p>
+                <button type="button" class="animal-btn">Познакомиться →</button>
+            </div>
+        </article>
+
+        <article class="animal-card" data-type="dog">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600"
+                 alt="Собака Рекс">
+            <div class="animal-info">
+                <span class="animal-type">Собака</span>
+                <h2>Рекс</h2>
+                <p>3 года · Умный и активный</p>
+                <button type="button" class="animal-btn">Познакомиться →</button>
+            </div>
+        </article>
+
+        <article class="animal-card" data-type="cat">
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600"
+                 alt="Кошка Мия">
+            <div class="animal-info">
+                <span class="animal-type">Кошка</span>
+                <h2>Мия</h2>
+                <p>8 месяцев · Любопытная и нежная</p>
+                <button type="button" class="animal-btn">Познакомиться →</button>
+            </div>
+        </article>
+
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 PawHome. Создано с заботой о животных </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
